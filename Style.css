@@ -533,6 +533,13 @@ main.content {
   text-decoration: none;
   box-shadow: 0 10px 26px rgba(34, 77, 63, 0.25);
   z-index: 1000;
+  font-size: 28px;
+}
+
+.whatsapp-button i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .whatsapp-button:hover {
