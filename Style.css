@@ -70,7 +70,7 @@ header {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: rgba(0, 0, 0, 0.25);
+  background-color: var(--brand);
   color: #ffffff;
   text-decoration: none;
   font-size: 0;
@@ -84,6 +84,7 @@ header {
   font-size: 28px;
   line-height: 1;
   color: #ffffff;
+  font-family: "Font Awesome 6 Brands";
 }
 
 .social-button:hover {
@@ -553,6 +554,7 @@ main.content {
   font-size: 40px;
   line-height: 1;
   color: #ffffff;
+  font-family: "Font Awesome 6 Brands";
 }
 
 .whatsapp-button:hover {
