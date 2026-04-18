@@ -1,171 +1,139 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Clínica Saúde e Qualidade de Vida: emagrecimento saudável, tratamentos médicos e apoio personalizado para sua saúde.">
     <title>Calculadora de IMC</title>
-    <link rel="stylesheet" href="./Style.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="./Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-p6O2WvZCWghuJbM5TQss90Q+B2TZLj/4I3zwT2YHUd0RQVWnVd6ixqszf36/X7I+5t5Ck/2sGxY9VhKXkM2f1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
     <header>
-      <div class="top-bar">
-        <div class="contact-info">
-          <span>Telefone: (75) 99260-6768</span> |
-          <span>Email: contato@clinica.com</span> |
-          <span>Horário de Atendimento das 7h as 18h</span>
+        <div class="top-bar">
+            <div class="contact-info">
+                <span><strong>Telefone:</strong> (75) 99260-6168</span>
+                <span><strong>Email:</strong> contato@clinica.com</span>
+                <span><strong>Atendimento:</strong> 7h às 18h</span>
+            </div>
+            <div class="search-bar">
+                <input type="search" placeholder="Pesquisar..." aria-label="Pesquisar no site">
+            </div>
+            <div class="social-buttons">
+                <a class="social-button" href="https://facebook.com/nelson.ricardoleyva.5/about" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a class="social-button" href="https://instagram.com/dr.nelsonricardoleyva" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
         </div>
-        <div class="search-bar">
-          <input type="text" placeholder="Pesquisar..." />
+        <div class="logo-bar">
+            <div class="brand-logo">
+                <img src="imagens/logo.png" alt="Logo da Clínica Saúde e Qualidade de Vida">
+                <div>
+                    <h1>Clínica Saúde e Qualidade de Vida</h1>
+                    <p class="brand-subtitle">Cuidados personalizados para emagrecimento saudável e bem-estar.</p>
+                </div>
+            </div>
+            <a class="cta-button" href="https://wa.me/75992606168" target="_blank" rel="noopener noreferrer">Agendar Consulta</a>
         </div>
-        <div class="social-buttons">
-          <button
-            class="social-button"
-            onclick="
-              window.open(
-                'https://facebook.com/nelson.ricardoleyva.5/about',
-                '_blank'
-              )
-            "
-          >
-            <i class="fa-brands fa-facebook-f"></i>
-          </button>
-          <button
-            class="social-button"
-            onclick="
-              window.open(
-                'https://instagram.com/dr.nelsonricardoleyva',
-                '_blank'
-              )
-            "
-          >
-            <i class="fa-brands fa-instagram"></i>
-          </button>
-        </div>
-      </div>
-      <div class="logo">
-        <img src="imagens/logo.png" alt="Logo da Clínica" />
-        <h1 style="color: #916225">Clínica Saúde e Qualidade de Vida</h1>
-        <button
-          class="cta-button"
-          style="float: right; margin-top: 10px"
-          onclick="window.open('#', '_blank')"
-        >
-          Agendar Consulta
-        </button>
-      </div>
-      <nav>
-        <a href="blog.html">Blog</a>
-        <a href="#emagrecimento">Emagrecimento</a>
-        <div class="dropdown">
-          <a href="#tratamentos" class="dropdown-button">Tratamentos</a>
-          <div class="dropdown-content">
-            <a href="avaliação_metabólica_completa.html"
-              >Avaliação metabólica completa</a
-            >
-            <a href="tratamento_obesidade_sobrepeso.html"
-              >Tratamento da obesidade e do sobrepeso</a
-            >
-            <a href="#tratamento3">Controlar distúrbios endócrinos</a>
-            <a href="#tratamento4"
-              >Acompanhamento de distúrbios de crescimento e puberdade</a
-            >
-            <a href="#tratamento3">Plano alimentar personalizado</a>
-            <a href="#tratamento3">Terapia de reposição hormonal (TRH)</a>
-            <a href="#tratamento3">Reposição de Testosterona (TRT)</a>
-            <a href="#tratamento3">Reposição de hormônios femininos</a>
-            <a href="#tratamento3">Controle a andropausa e a menopausa</a>
-          </div>
-        </div>
-        <a href="#midia">Na mídia</a>
-        <a href="saudenmagrecimento.html">Voltar</a>
-      </nav>
+        <nav class="main-nav" aria-label="Menu principal">
+            <ul class="nav-list">
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="saudenmagrecimento.html">Emagrecimento</a></li>
+                <li class="dropdown">
+                    <a href="#tratamentos" class="dropdown-button">Tratamentos</a>
+                    <ul class="dropdown-content">
+                        <li><a href="avaliação_metabólica_completa.html">Avaliação metabólica completa</a></li>
+                        <li><a href="tratamento_obesidade_sobrepeso.html">Tratamento da obesidade e do sobrepeso</a></li>
+                        <li><a href="saudenmagrecimento.html#tratamentos">Controlar distúrbios endócrinos</a></li>
+                        <li><a href="saudenmagrecimento.html#tratamentos">Acompanhamento de distúrbios de crescimento e puberdade</a></li>
+                        <li><a href="saudenmagrecimento.html#tratamentos">Plano alimentar personalizado</a></li>
+                        <li><a href="saudenmagrecimento.html#tratamentos">Terapia de reposição hormonal (TRH)</a></li>
+                        <li><a href="saudenmagrecimento.html#tratamentos">Reposição de Testosterona (TRT)</a></li>
+                        <li><a href="saudenmagrecimento.html#tratamentos">Reposição de hormônios femininos</a></li>
+                        <li><a href="saudenmagrecimento.html#tratamentos">Controle da andropausa e da menopausa</a></li>
+                    </ul>
+                </li>
+                <li><a href="calcularimc.html">Calculadora de IMC</a></li>
+                <li><a href="saudenmagrecimento.html#midia">Na mídia</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <div class="container">
-      <div class="calculadora-container">
-        <div class="calculadora">
-          <h2>Calcular IMC</h2>
-          <form>
-            <label for="peso"><strong>Digite seu peso:</strong></label
-            ><br />
-            <input type="number" id="peso" name="peso" /><br />
-            <small><strong>Exemplo: 80.3</strong></small
-            ><br /><br />
-            <label for="altura"><strong>Digite sua altura:</strong></label
-            ><br />
-            <input type="number" id="altura" name="altura" step="0.01" /><br />
-            <small><strong>Exemplo: 1.70</strong></small
-            ><br /><br />
-            <button type="button" onclick="calcularIMC()">
-              <strong>Calcular</strong>
-            </button>
-          </form>
-          <p id="resultado"></p>
-          <p><strong>Escala:</strong></p>
-          <ul>
-            <strong>
-              <li>Menor que 18,5 – Baixo peso</li>
-              <li>Entre 18,5 e 24,9 – Peso ideal</li>
-              <li>Entre 25 e 29,9 – Sobrepeso (acima do peso desejado)</li>
-              <li>Entre 30 e 34,9 – Obesidade grau I</li>
-              <li>Entre 35 e 39,9 – Obesidade grau II</li>
-              <li>Acima de 40 – Obesidade mórbida grau III</li>
-            </strong>
-          </ul>
-        </div>
-        <div class="descricao">
-          <h2>O que é a Calculadora de IMC?</h2>
-          <p>
-            Uma calculadora de IMC <strong>(Índice de Massa Corporal)</strong> é
-            uma ferramenta usada para calcular o IMC de uma pessoa, que é um
-            indicador amplamente utilizado <br />
-            para avaliar se o peso de um indivíduo está adequado em relação à
-            sua altura. O IMC é uma medida simples que utiliza a fórmula:
-          </p>
-          <h2>Para que serve?</h2>
-          <p>
-            A calculadora de IMC é comumente usada por profissionais de saúde e
-            pelo público em geral para ter uma ideia rápida sobre o estado
-            <br />
-            de saúde relacionado ao peso corporal. Embora o IMC seja uma
-            ferramenta útil, ele não considera outros fatores, como massa
-            muscular, distribuição de <br />
-            gordura e condições de saúde individuais.
-          </p>
-        </div>
-      </div>
-    </div>
-
+    <main class="content">
+        <section class="content-block calculadora-page">
+            <div class="calculadora-container">
+                <div class="calculadora">
+                    <h2>Calculadora de IMC</h2>
+                    <form>
+                        <label for="peso">Peso (kg)</label>
+                        <input type="number" id="peso" name="peso" step="0.1" placeholder="80.3" aria-label="Peso em quilogramas">
+                        <label for="altura">Altura (m)</label>
+                        <input type="number" id="altura" name="altura" step="0.01" placeholder="1.70" aria-label="Altura em metros">
+                        <button type="button" onclick="calcularIMC()">Calcular</button>
+                    </form>
+                    <p id="resultado"></p>
+                </div>
+                <div class="descricao">
+                    <h2>O que é IMC?</h2>
+                    <p>O Índice de Massa Corporal (IMC) é uma medida simples que relaciona peso e altura. Ele ajuda a indicar se o peso está adequado, mas não substitui uma avaliação clínica completa.</p>
+                    <h2>Para que serve?</h2>
+                    <p>O IMC é usado para indicar categorias de peso — baixo peso, peso ideal, sobrepeso e obesidade. É uma referência útil, mas deve ser interpretado junto de outros dados de saúde.</p>
+                </div>
+            </div>
+        </section>
+        <section class="content-block">
+            <h2>Escala de IMC</h2>
+            <ul class="feature-list">
+                <li>Menor que 18,5 — Baixo peso</li>
+                <li>18,5 a 24,9 — Peso ideal</li>
+                <li>25 a 29,9 — Sobrepeso</li>
+                <li>30 a 34,9 — Obesidade grau I</li>
+                <li>35 a 39,9 — Obesidade grau II</li>
+                <li>40 ou mais — Obesidade grau III</li>
+            </ul>
+        </section>
+        <section id="midia" class="content-block">
+            <h2>Na mídia</h2>
+            <p>Confira reportagens, publicações e depoimentos. Trabalhamos para oferecer conteúdo claro e responsável sobre saúde e qualidade de vida.</p>
+        </section>
+    </main>
     <script>
       function calcularIMC() {
-        var peso = document.getElementById("peso").value;
-        var altura = document.getElementById("altura").value;
-        var imc = peso / (altura * altura);
-        var resultado = document.getElementById("resultado");
+        const peso = parseFloat(document.getElementById('peso').value);
+        const altura = parseFloat(document.getElementById('altura').value);
+        const resultado = document.getElementById('resultado');
+
+        if (!peso || !altura) {
+          resultado.textContent = 'Preencha peso e altura corretamente para calcular seu IMC.';
+          return;
+        }
+
+        const imc = peso / (altura * altura);
+        const valor = imc.toFixed(2);
+        let mensagem = '';
 
         if (imc < 18.5) {
-          resultado.innerHTML =
-            "Seu IMC é: " + imc.toFixed(2) + " (Baixo peso)";
-        } else if (imc >= 18.5 && imc < 25) {
-          resultado.innerHTML =
-            "Seu IMC é: " + imc.toFixed(2) + " (Peso ideal)";
-        } else if (imc >= 25 && imc < 30) {
-          resultado.innerHTML = "Seu IMC é: " + imc.toFixed(2) + " (Sobrepeso)";
-        } else if (imc >= 30 && imc < 35) {
-          resultado.innerHTML =
-            "Seu IMC é: " + imc.toFixed(2) + " (Obesidade grau I)";
-        } else if (imc >= 35 && imc < 40) {
-          resultado.innerHTML =
-            "Seu IMC é: " + imc.toFixed(2) + " (Obesidade grau II)";
+          mensagem = 'Baixo peso';
+        } else if (imc < 25) {
+          mensagem = 'Peso ideal';
+        } else if (imc < 30) {
+          mensagem = 'Sobrepeso';
+        } else if (imc < 35) {
+          mensagem = 'Obesidade grau I';
+        } else if (imc < 40) {
+          mensagem = 'Obesidade grau II';
         } else {
-          resultado.innerHTML =
-            "Seu IMC é: " + imc.toFixed(2) + " (Obesidade mórbida grau III)";
+          mensagem = 'Obesidade mórbida grau III';
         }
+
+        resultado.textContent = `Seu IMC é: ${valor} (${mensagem})`;
       }
     </script>
-
     <footer>
-      &copy; 2025 Clínica de Emagrecimento - Todos os direitos reservados.
+        &copy; 2025 Clínica Saúde e Qualidade de Vida - Todos os direitos reservados.
     </footer>
-  </body>
+</body>
 </html>

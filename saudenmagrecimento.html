@@ -1,131 +1,283 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Clínica Saúde e Qualidade de Vida: emagrecimento saudável, tratamento de obesidade, reeducação alimentar e apoio médico personalizado."
+    />
     <title>Clínica Saúde e Qualidade de Vida</title>
-    <link rel="stylesheet" href="./Style.css">
-</head>
+    <link rel="stylesheet" href="./Style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-p6O2WvZCWghuJbM5TQss90Q+B2TZLj/4I3zwT2YHUd0RQVWnVd6ixqszf36/X7I+5t5Ck/2sGxY9VhKXkM2f1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="top-bar">
-            <div class="contact-info">
-                <span>Telefone: (75) 99260-6168</span> | <span>Email: contato@clinica.com</span> | <span>Horário de Atendimento das 7h as 18h</span>
-            </div>
-            <div class="search-bar">
-                <input type="text" placeholder="Pesquisar...">
-            </div>
-            <div class="social-buttons">
-                <button class="social-button" onclick="window.open('https://facebook.com/nelson.ricardoleyva.5/about','_blank')"><i class="fa-brands fa-facebook-f"></i></button>
-                <button class="social-button" onclick="window.open('https://instagram.com/dr.nelsonricardoleyva','_blank')"><i class="fa-brands fa-instagram"></i></button>
-            </div>
+      <div class="top-bar">
+        <div class="contact-info">
+          <span><strong>Telefone:</strong> (75) 99260-6168</span>
+          <span><strong>Email:</strong> contato@clinica.com</span>
+          <span><strong>Atendimento:</strong> 7h às 18h</span>
         </div>
-        <div class="logo">
-            <img src="imagens/logo.png" alt="Logo da Clínica">
-            <h1 style="color: #916225;">Clínica Saúde e Qualidade de Vida</h1>
-            <button class="cta-button" style="float: right; margin-top: 10px;" onclick="window.open('https://wa.me/75992606168','_blank')">Agendar Consulta</button>
+        <div class="search-bar">
+          <input
+            type="search"
+            placeholder="Pesquisar..."
+            aria-label="Pesquisar no site"
+          />
         </div>
-        <nav>
-            <a href="blog.html">Blog</a>
-            <a href="#emagrecimento">Emagrecimento</a>
-            <div class="dropdown">
-                <a href="#tratamentos" class="dropdown-button">Tratamentos</a>
-                <div class="dropdown-content">
-                    <a href="avaliação_metabólica_completa.html">Avaliação metabólica completa</a>
-                    <a href="tratamento_obesidade_sobrepeso.html">Tratamento da obesidade e do sobrepeso</a>
-                    <a href="#tratamento3">Controlar distúrbios endócrinos</a>
-                    <a href="#tratamento4">Acompanhamento de distúrbios de crescimento e puberdade</a>
-                    <a href="#tratamento3">Plano alimentar personalizado</a>
-                    <a href="#tratamento3">Terapia de reposição hormonal (TRH)</a>
-                    <a href="#tratamento3">Reposição de Testosterona (TRT)</a>
-                    <a href="#tratamento3">Reposição de hormônios femininos</a>
-                    <a href="#tratamento3">Controle a andropausa e a menopausa</a>
-                </div>
-            </div>
-            <a href="calcularimc.html">Calculadora de IMC</a>
-            <a href="#midia">Na mídia</a>
-        </nav>
+        <div class="social-buttons">
+          <a
+            class="social-button"
+            href="https://facebook.com/nelson.ricardoleyva.5/about"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook"
+          >
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a
+            class="social-button"
+            href="https://instagram.com/dr.nelsonricardoleyva"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+      <div class="logo-bar">
+        <div class="brand-logo">
+          <img
+            src="imagens/logo.png"
+            alt="Logo da Clínica Saúde e Qualidade de Vida"
+          />
+          <div>
+            <h1>Clínica Saúde e Qualidade de Vida</h1>
+            <p class="brand-subtitle">
+              Cuidados personalizados para emagrecimento saudável e bem-estar.
+            </p>
+          </div>
+        </div>
+        <a
+          class="cta-button"
+          href="https://wa.me/75992606168"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Agendar Consulta</a
+        >
+      </div>
+      <nav class="main-nav" aria-label="Menu principal">
+        <ul class="nav-list">
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="#emagrecimento">Emagrecimento</a></li>
+          <li class="dropdown">
+            <a href="#tratamentos" class="dropdown-button">Tratamentos</a>
+            <ul class="dropdown-content">
+              <li>
+                <a href="avaliação_metabólica_completa.html"
+                  >Avaliação metabólica completa</a
+                >
+              </li>
+              <li>
+                <a href="tratamento_obesidade_sobrepeso.html"
+                  >Tratamento da obesidade e do sobrepeso</a
+                >
+              </li>
+              <li>
+                <a href="#tratamentos">Controlar distúrbios endócrinos</a>
+              </li>
+              <li>
+                <a href="#tratamentos"
+                  >Acompanhamento de distúrbios de crescimento e puberdade</a
+                >
+              </li>
+              <li><a href="#tratamentos">Plano alimentar personalizado</a></li>
+              <li>
+                <a href="#tratamentos">Terapia de reposição hormonal (TRH)</a>
+              </li>
+              <li>
+                <a href="#tratamentos">Reposição de Testosterona (TRT)</a>
+              </li>
+              <li>
+                <a href="#tratamentos">Reposição de hormônios femininos</a>
+              </li>
+              <li>
+                <a href="#tratamentos">Controle da andropausa e da menopausa</a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="calcularimc.html">Calculadora de IMC</a></li>
+          <li><a href="#midia">Na mídia</a></li>
+        </ul>
+      </nav>
     </header>
+
     <main>
-        <section class="content">
-            <div style="display: flex; justify-content: space-between;">
-                <div style="width: 40%;">
-                    <h2>Por que e como emagrecer: motivações e métodos</h2>
-                    <img src="imagens/foto saude.png" alt="Foto de saúde">
-                    <p>A busca por um corpo saudável e uma vida mais equilibrada é um objetivo comum para muitas pessoas.<br> Emagrecer pode ser um desafio, mas com as <br>
-                       motivações certas e os métodos adequados, é possível <br> alcançar seus objetivos e melhorar sua qualidade de vida. <br>
-                    <br>
-                    O magrecimento é um processo que envolve muito mais do que buscas estéticas. É uma medida de saúde, capaz de prevenir doenças, melhorar a qualidade <br>
-                    de vida e proporcionar maior bem-estar físico e emocional. Estudos mostram que a perda de peso adequada pode reduzir significativamente o risco de <br>
-                    condições como diabetes tipo 2, hipertensão, doenças cardiovasculares e distúrbios hormonais. <br>
-                    <br>
-                    As <strong>motivações</strong> que levam um paciente a buscar o emagrecimento são variadas: promoção da saúde, recuperação da autoestima, aumento da <br>
-                    disposição e prevenção de complicações médicas. Identificar esses objetivos é essencial para que o tratamento seja conduzido de forma individualizada e <br>
-                    assertiva. <br>
-                    <br>
-                    Em relação aos <strong>métodos</strong>, a clínica adota uma abordagem multidisciplinar, baseada em evidências científicas, que inclui: <br>
-                    <br>
-                    <strong>Acompanhamento nutricional personalizado</strong>, respeitando as necessidades e particularidades de cada paciente. <br>
-                    <br>
-                    <strong>Orientação médica especializada</strong>, com avaliação de fatores hormonais, metabólicos e clínicos que podem interferir no processo de <br>
-                    emagrecimento. <br>
-                    <br>
-                    <strong>Indicação de atividade física adequada</strong>, como parte fundamental da estratégia de saúde e segurança. <br>
-                    <br>
-                    <strong>Apoio contínuo para mudança de hábitos</strong>, incluindo controle de qualidade, controle de estresse e equilíbrio de rotina. <br>
-                    <br>
-                    Nosso compromisso é oferecer suporte seguro, ético e eficiente, proporcionando não apenas a redução de peso, mas a conquista de um estilo de vida mais <br>
-                    saudável e duradouro.
-                    </p>
-            </div>
-            <div style="width: 55%;">
-                <img src="imagens/antes-depois.jpeg" alt="Foto antes-depois" style="width: 45%; margin-right: 10px;">
-                <img src="imagens/antes-depois1.jpeg" alt="Foto antes-depois1" style="width: 45%;">
-                <h2>✨ Menos 34kg — Mais Saúde, Mais Vida! ✨</h2>
-                <p>Hoje queremos compartilhar uma conquista incrível de um dos nossos pacientes que, com dedicação, disciplina e o tratamento certo, eliminou 34kg! 🏆 <br> Esse resultado não representa apenas um número na balança, mas uma verdadeira transformação de vida: mais energia, mais autoestima, mais qualidade de sono, <br> menos dores, menos cansaço e mais vontade de viver! 💪💚 <br> <br> Emagrecer não é apenas sobre estética — é sobre cuidar da sua saúde, do seu futuro e de quem você ama. Cada quilo perdido foi um passo rumo a uma vida <br> mais leve, mais saudável e mais feliz. 🌟 <br> Se você também sonha em mudar, saiba que é possível. Com acompanhamento médico adequado, apoio personalizado e os recursos certos, você pode conquistar <br> seus objetivos. <br> <br> 📍 Aqui na nossa clínica, estamos prontos para caminhar ao seu lado e transformar a sua história também. O primeiro passo pode parecer difícil, mas <br> é ele que muda tudo. 🚀 <br> 💚 Comece hoje a cuidar de você. Seu futuro vai agradecer.</p>
-            </div>
-        </section>
-        <aside class="sidebar">
-            <img src="imagens/foto nelson.png" alt="Médico Principal">
-            <h3>Dr. Nelson Ricardo Leyva</h3>
-            <p><strong>Médico Especialista em Emagrecimento e Cuidados da Saúde</strong></p>
-            <p>CRM: 12345 | RQE: 67890</p>
-            <p>O Dr. Nelson Ricardo Leyva possui sólida formação acadêmica e ampla experiência no acompanhamento de pacientes em busca do emagrecimento saudável e da <br>
-               melhoria da qualidade de vida. Seu trabalho é pautado na medicina baseada em evidências, com foco na prevenção, no tratamento da obesidade e no manejo de <br>
-               doenças relacionadas ao excesso de peso.
+      <section id="emagrecimento" class="content">
+        <div class="content-block" id="tratamentos">
+          <h2>Por que e como emagrecer: motivações e métodos</h2>
+          <img
+            src="imagens/foto saude.png"
+            alt="Atendimento de saúde e emagrecimento"
+          />
+          <p>
+            A busca por um corpo saudável e uma vida mais equilibrada é um
+            objetivo comum para muitas pessoas. Emagrecer pode ser um desafio,
+            mas com as motivações certas e métodos adequados, é possível
+            conquistar resultados reais de saúde e bem-estar.
+          </p>
+          <p>
+            O emagrecimento envolve mais do que a aparência: é uma medida de
+            saúde capaz de prevenir doenças, melhorar a qualidade de vida e
+            promover maior bem-estar físico e emocional.
+          </p>
+          <p>
+            As <strong>motivações</strong> que levam um paciente a buscar
+            emagrecimento incluem promoção da saúde, recuperação da autoestima,
+            aumento da disposição e prevenção de complicações médicas.
+            Identificar esses objetivos é o primeiro passo para um tratamento
+            individualizado.
+          </p>
+          <ul class="feature-list">
+            <li>
+              <strong>Acompanhamento nutricional personalizado:</strong>
+              respeitando as necessidades individuais de cada paciente.
+            </li>
+            <li>
+              <strong>Orientação médica especializada:</strong> avaliação de
+              fatores hormonais, metabólicos e clínicos que influenciam o
+              emagrecimento.
+            </li>
+            <li>
+              <strong>Atividade física adequada:</strong> parte fundamental para
+              saúde e segurança do paciente.
+            </li>
+            <li>
+              <strong>Apoio contínuo na mudança de hábitos:</strong> foco em
+              sono, controle de estresse e rotina equilibrada.
+            </li>
+          </ul>
+          <p>
+            Nosso compromisso é oferecer suporte seguro, ético e eficiente,
+            promovendo não apenas redução de peso, mas a conquista de um estilo
+            de vida mais saudável e duradouro.
+          </p>
+        </div>
 
-               Com uma abordagem ética e humanizada, busca oferecer soluções personalizadas para cada paciente, sempre priorizando a segurança, a saúde integral e a <br>
-               manutenção dos resultados a longo prazo.</p>
-               <p><strong>Áreas de Atuação</strong> <br>
-                  Emagrecimento supervisionado com acompanhamento médico <br>
-                  Tratamento e prevenção da obesidade <br>
-                  Controle de doenças metabólicas associadas (diabetes, hipertensão, dislipidemias) <br>
-                  Medicina preventiva e promoção da saúde <br>
-                  Reeducação alimentar e acompanhamento para manutenção de peso saudável</p>
-            <div class="fachada">
-                    <img src="imagens/foto fachada.png" alt="foto fachada">
-                    <h1>Clínica Saúde e Qualidade de Vida</h1>
-                    <p><strong>Rua Rui Barbosa, 287 - Centro, CansSanção, BA</strong></p>
-            </div>
-        </aside>
+        <div class="success-story">
+          <div class="images-row">
+            <img
+              src="imagens/antes-depois.jpeg"
+              alt="Antes e depois da jornada de emagrecimento"
+              class="story-image"
+            />
+            <img
+              src="imagens/antes-depois1.jpeg"
+              alt="Transformação de corpo e saúde"
+              class="story-image"
+            />
+          </div>
+          <h2>✨ Menos 34kg — Mais Saúde, Mais Vida! ✨</h2>
+          <p>
+            Hoje compartilhamos uma conquista de um paciente que, com dedicação
+            e tratamento adequado, eliminou 34kg. O resultado trouxe mais
+            energia, autoestima, qualidade de sono e bem-estar.
+          </p>
+          <p>
+            Emagrecer não é apenas estética é cuidar da saúde, do futuro e de
+            quem você ama. Cada quilo perdido representa um passo rumo a uma
+            vida mais leve, saudável e feliz.
+          </p>
+          <p>
+            Com orientação médica personalizada e apoio contínuo, a sua
+            transformação também é possível.
+          </p>
+        </div>
+      </section>
+
+      <aside class="sidebar">
+        <img
+          src="imagens/foto nelson.png"
+          alt="Foto do Dr. Nelson Ricardo Leyva"
+          class="doctor-photo"
+        />
+        <h3>Dr. Nelson Ricardo Leyva</h3>
+        <p class="subtitle">
+          <strong>Médico Especialista em Emagrecimento e Saúde</strong>
+        </p>
+        <p>CRM: 12345 | RQE: 67890</p>
+        <p>
+          O Dr. Nelson possui sólida formação acadêmica e ampla experiência no
+          acompanhamento de pacientes que buscam emagrecimento saudável e
+          melhorias na qualidade de vida.
+        </p>
+        <div class="practice-focus">
+          <h4>Áreas de atuação</h4>
+          <ul>
+            <li>Emagrecimento supervisionado</li>
+            <li>Tratamento e prevenção da obesidade</li>
+            <li>Controle de doenças metabólicas</li>
+            <li>Medicina preventiva</li>
+            <li>Reeducação alimentar</li>
+          </ul>
+        </div>
+        <div class="address-card">
+          <img src="imagens/foto fachada.png" alt="Fachada da clínica" />
+          <h4>Clínica Saúde e Qualidade de Vida</h4>
+          <p><strong>Rua Rui Barbosa, 287 - Centro, Cansanção, BA</strong></p>
+        </div>
+      </aside>
     </main>
-    <button class="whatsapp-button" onclick="window.open('https://wa.me/75992606168','_blank')">
-    <i class="fa-brands fa-whatsapp"></i>
-    <span class="tooltip">Tire suas dúvidas</span>
-    </button>
 
-    <div class="map-container">
+    <a
+      class="whatsapp-button"
+      href="https://wa.me/75992606168"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Contato no WhatsApp"
+    >
+      <i class="fa-brands fa-whatsapp"></i>
+      <span class="tooltip">Tire suas dúvidas</span>
+    </a>
+
+    <section
+      id="midia"
+      class="map-container"
+      aria-label="Localização da clínica"
+    >
+      <div class="map-header">
         <div class="endereco">
-            <i class="fa fa-map-marker"></i> <strong>Rua Rui Barbosa, 287 - Centro, CansSanção, BA</strong>
+          <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+          <strong>Rua Rui Barbosa, 287 - Centro, Cansanção, BA</strong>
         </div>
-        <a href="https://www.google.com/maps/place/R.+Rui+Barbosa,+287+-+Centro,+Cansan%C3%A7%C3%A3o,+BA+48840-000/@-10.6694453,-39.4980042,17z/data=!3m1!4b1!4m6!3m5!1s0x7129aa59f40753b:0xe5ba3f8f275487e2!8m2!3d-10.6694453!4d-39.4954293!16s%2Fg%11c5ryknpq?entry=ttu" target="_blank">
-            <iframe width="600" height="450" style="border:0" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3920.841021117072!2d-39.498004200000004!3d-10.669445300000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7129aa59f40753b%3A0xe5ba3f8f275487e2!2sR.%20Rui%20Barbosa%2C%20287%20-%20Centro%2C%20Cansan%C3%A7%C3%A3o%20-%20BA%2C%2048840-000!5e0!3m2!1spt-BR!2sbr!4v1759363866561!5m2!1spt-BR!2sbr"></iframe>
-        </a>
-        </div>
-    </div>
+        <a
+          class="map-link"
+          href="https://www.google.com/maps/place/R.+Rui+Barbosa,+287+-+Centro,+Cansan%C3%A7%C3%A3o,+BA+48840-000/@-10.6694453,-39.4980042,17z/data=!3m1!4b1!4m6!3m5!1s0x7129aa59f40753b:0xe5ba3f8f275487e2!8m2!3d-10.6694453!4d-39.4954293!16s%2Fg%11c5ryknpq?entry=ttu"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Ver no Google Maps</a
+        >
+      </div>
+      <iframe
+        title="Mapa da localização da Clínica Saúde e Qualidade de Vida"
+        loading="lazy"
+        allowfullscreen
+        referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3920.841021117072!2d-39.498004200000004!3d-10.669445300000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7129aa59f40753b%3A0xe5ba3f8f275487e2!2sR.%20Rui%20Barbosa%2C%20287%20-%20Centro%2C%20Cansan%C3%A7%C3%A3o%20-%20BA%2C%2048840-000!5e0!3m2!1spt-BR!2sbr!4v1759363866561!5m2!1spt-BR!2sbr"
+      ></iframe>
+    </section>
+
     <footer>
-        &copy; 2025 Clínica de Emagrecimento - Todos os direitos reservados.
+      &copy; 2025 Clínica de Emagrecimento - Todos os direitos reservados.
     </footer>
-</body>
+  </body>
 </html>

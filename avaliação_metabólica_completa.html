@@ -1,88 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>avaliação metabólica completa</title>
+    <meta name="description" content="Clínica Saúde e Qualidade de Vida: emagrecimento saudável, tratamentos médicos e apoio personalizado para sua saúde.">
+    <title>Avaliação Metabólica Completa</title>
     <link rel="stylesheet" href="./Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-p6O2WvZCWghuJbM5TQss90Q+B2TZLj/4I3zwT2YHUd0RQVWnVd6ixqszf36/X7I+5t5Ck/2sGxY9VhKXkM2f1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
     <header>
         <div class="top-bar">
             <div class="contact-info">
-                <span>Telefone: (75) 99260-6168</span> | <span>Email: contato@clinica.com</span> | <span>Horário de Atendimento das 7h as 18h</span>
+                <span><strong>Telefone:</strong> (75) 99260-6168</span>
+                <span><strong>Email:</strong> contato@clinica.com</span>
+                <span><strong>Atendimento:</strong> 7h às 18h</span>
             </div>
             <div class="search-bar">
-                <input type="text" placeholder="Pesquisar...">
+                <input type="search" placeholder="Pesquisar..." aria-label="Pesquisar no site">
             </div>
             <div class="social-buttons">
-                <button class="social-button" onclick="window.open('https://facebook.com/nelson.ricardoleyva.5/about','_blank')"><i class="fa-brands fa-facebook-f"></i></button>
-                <button class="social-button" onclick="window.open('https://instagram.com/dr.nelsonricardoleyva','_blank')"><i class="fa-brands fa-instagram"></i></button>
+                <a class="social-button" href="https://facebook.com/nelson.ricardoleyva.5/about" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a class="social-button" href="https://instagram.com/dr.nelsonricardoleyva" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
             </div>
         </div>
-        <div class="logo">
-            <img src="imagens/logo.png" alt="Logo da Clínica">
-            <h1 style="color: #916225;">Clínica Saúde e Qualidade de Vida</h1>
-            <button class="cta-button" style="float: right; margin-top: 10px;" onclick="window.open('https://wa.me/75992606168','_blank')">Agendar Consulta</button>
-        </div>
-        <nav>
-            <a href="blog.html">Blog</a>
-            <a href="#emagrecimento">Emagrecimento</a>
-            <div class="dropdown">
-                <a href="#tratamentos" class="dropdown-button">Tratamentos</a>
-                <div class="dropdown-content">
-                    <a href="avaliação_metabólica_completa.html">Avaliação metabólica completa</a>
-                    <a href="tratamento_obesidade_sobrepeso.html">Tratamento da obesidade e do sobrepeso</a>
-                    <a href="#tratamento3">Controlar distúrbios endócrinos</a>
-                    <a href="#tratamento4">Acompanhamento de distúrbios de crescimento e puberdade</a>
-                    <a href="#tratamento3">Plano alimentar personalizado</a>
-                    <a href="#tratamento3">Terapia de reposição hormonal (TRH)</a>
-                    <a href="#tratamento3">Reposição de Testosterona (TRT)</a>
-                    <a href="#tratamento3">Reposição de hormônios femininos</a>
-                    <a href="#tratamento3">Controle a andropausa e a menopausa</a>
+        <div class="logo-bar">
+            <div class="brand-logo">
+                <img src="imagens/logo.png" alt="Logo da Clínica Saúde e Qualidade de Vida">
+                <div>
+                    <h1>Clínica Saúde e Qualidade de Vida</h1>
+                    <p class="brand-subtitle">Cuidados personalizados para emagrecimento saudável e bem-estar.</p>
                 </div>
             </div>
-            <a href="calcularimc.html">Calculadora de IMC</a>
-            <a href="#midia">Na mídia</a>
-            <a href="saudenmagrecimento.html">Voltar</a>
+            <a class="cta-button" href="https://wa.me/75992606168" target="_blank" rel="noopener noreferrer">Agendar Consulta</a>
+        </div>
+        <nav class="main-nav" aria-label="Menu principal">
+            <ul class="nav-list">
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="saudenmagrecimento.html">Emagrecimento</a></li>
+                <li class="dropdown">
+                    <a href="#tratamentos" class="dropdown-button">Tratamentos</a>
+                    <ul class="dropdown-content">
+                        <li><a href="avaliação_metabólica_completa.html">Avaliação metabólica completa</a></li>
+                        <li><a href="tratamento_obesidade_sobrepeso.html">Tratamento da obesidade e do sobrepeso</a></li>
+                        <li><a href="saudenmagrecimento.html#tratamentos">Controlar distúrbios endócrinos</a></li>
+                        <li><a href="saudenmagrecimento.html#tratamentos">Acompanhamento de distúrbios de crescimento e puberdade</a></li>
+                        <li><a href="saudenmagrecimento.html#tratamentos">Plano alimentar personalizado</a></li>
+                        <li><a href="saudenmagrecimento.html#tratamentos">Terapia de reposição hormonal (TRH)</a></li>
+                        <li><a href="saudenmagrecimento.html#tratamentos">Reposição de Testosterona (TRT)</a></li>
+                        <li><a href="saudenmagrecimento.html#tratamentos">Reposição de hormônios femininos</a></li>
+                        <li><a href="saudenmagrecimento.html#tratamentos">Controle da andropausa e da menopausa</a></li>
+                    </ul>
+                </li>
+                <li><a href="calcularimc.html">Calculadora de IMC</a></li>
+                <li><a href="saudenmagrecimento.html#midia">Na mídia</a></li>
+            </ul>
         </nav>
     </header>
 
-    <main>
-        <section class="cont">
-            <div style="display: flex; justify-content: space-between; align-items: center;">
-                <div style="width: 60%;">
-                <h1>Avaliação metabólica completa</h1>
-                <p><strong>Objetivo da avaliação metabólica completa</strong><br>
-                    Identificar fatores de risco cardiometabólico (glicemia, resistência insulínica, dislipidemia, doença hepática gordurosa, distúrbios hormonais), quantificar <br>
-                    composição corporal e gasto energético, descobrir causas reversíveis e montar um plano terapêutico individualizado (nutrição, exercício, intervenções médicas <br>
-                    quando necessárias). <br>
-                    <br>
-                    <strong>Primeira consulta — histórico detalhado</strong> <br>
-                    Principais queixas (peso, fadiga, distúrbios do sono, libido, ganho de peso inexplicável, dor de cabeça/poliúria). <br>
-                    História clínica: doenças crônicas (diabetes, dislipidemia, hipertensão, problemas de tireoide), uso de medicamentos (ex.: corticoides, antipsicóticos), cirurgias e alergias. <br>
-                    Histórico familiar: DM2, IAM precoce, acidente vascular cerebral, dislipidemia, obesidade. <br>
-                    Hábitos de vida: hábitos alimentares, horários, consumo de álcool, tabagismo, hábitos de sono, atividade física (tipo/frequência/intensidade). <br>
-                    Avaliação de fatores psicoemocionais: estresse, sintomas depressivos/ansiosos, uso de substâncias. <br>
-                    Esta etapa orienta quais testes fazer e quais hipóteses investigar. <br>
-                    <br>
-                    <strong>Exame físico e medidas antropométricas</strong>
-                    Sinais vitais: PA, FC. <br>
-                    Peso, altura (IMC), circunferência da cintura e relação cintura-quadril — medidas essenciais para risco cardiometabólico. <br>
-                    Exame geral: sintomas de síndrome metabólica (acantose nigricans, gordura visceral, sintomas de hirsutismo/virilização, sintomas de hipo/hipertireoidismo). <br>
-                    Disponibilidade de mobilidade e capacidade funcional básica (faz parte do programa de reabilitação). <br>
-                    A circunferência da cintura e o IMC ajudam na estratificação de risco e não acompanhante.
-                </p>
+    <main class="content">
+        <section class="content-block content-row">
+            <div>
+                <h1>Avaliação Metabólica Completa</h1>
+                <p><strong>Objetivo</strong>: identificar fatores de risco cardiometabólico, avaliar composição corporal e planejar um tratamento individualizado.</p>
+                <p>Inclui histórico clínico, exame físico, medidas antropométricas e avaliação de hábitos de vida. O foco é entender causas reversíveis e orientar intervenções seguras.</p>
+                <p><strong>Na primeira consulta</strong>, avaliamos histórico de peso, sono, alimentação, atividade física, uso de medicamentos e aspectos emocionais.</p>
+                <p><strong>As medidas mais importantes</strong> são pressão arterial, frequência cardíaca, peso, altura, IMC, circunferência da cintura e relação cintura-quadril.</p>
             </div>
-            <div style="width: 43%;">
-                <img src="imagens/Avaliação metabólica completa.png" alt="Avaliação metabólica completa" style="max-width: 100%; border-radius: 8px;">
+            <div class="image-block">
+                <img src="imagens/Avaliação metabólica completa.png" alt="Avaliação metabólica completa">
             </div>
         </section>
+        <section id="midia" class="content-block">
+            <h2>Na mídia</h2>
+            <p>Veja como nossa equipe contribui com conteúdos sobre saúde metabólica na mídia regional e nacional.</p>
+        </section>
     </main>
-
     <footer>
-        &copy; 2025 Clínica de Emagrecimento - Todos os direitos reservados.
+        &copy; 2025 Clínica Saúde e Qualidade de Vida - Todos os direitos reservados.
     </footer>
 </body>
 </html>
