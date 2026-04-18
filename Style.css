@@ -73,7 +73,7 @@ header {
   background-color: var(--brand);
   color: #ffffff;
   text-decoration: none;
-  font-size: 0;
+  font-family: "Font Awesome 6 Brands";
   transition:
     transform 0.2s ease,
     background-color 0.2s ease,
@@ -85,6 +85,7 @@ header {
   line-height: 1;
   color: #ffffff;
   font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
 }
 
 .social-button:hover {
@@ -543,6 +544,7 @@ main.content {
   align-items: center;
   justify-content: center;
   text-decoration: none;
+  font-family: "Font Awesome 6 Brands";
   box-shadow: 0 10px 26px rgba(34, 77, 63, 0.35);
   z-index: 1000;
   transition:
@@ -555,6 +557,7 @@ main.content {
   line-height: 1;
   color: #ffffff;
   font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
 }
 
 .whatsapp-button:hover {
